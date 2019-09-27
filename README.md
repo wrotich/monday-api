@@ -1,24 +1,16 @@
-# README
+# MONDAY-API
+## This is a simple API built with Ruby on Rails and integrated with [monday api]()
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
+- Clone the repository
+`git clone https://github.com/wrotich/monday-api.git`
 
-Things you may want to cover:
+- Navigate into monday-api directory - `cd monday-api`
 
-* Ruby version
+- Install all the dependencies - `bundle install`
 
-* System dependencies
+- Setup the database - `rails db:setup`
 
-* Configuration
+- Start the application in development mode - `rails s`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Checkout the frontend part of the API [here](https://github.com/wrotich/monday-client)
